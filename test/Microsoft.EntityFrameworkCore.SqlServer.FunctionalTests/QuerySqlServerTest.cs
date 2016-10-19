@@ -3,10 +3,13 @@
 
 using System;
 using System.Linq;
+using System.Threading;
+using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Specification.Tests;
 using Microsoft.EntityFrameworkCore.Specification.Tests.TestModels.Northwind;
 using Microsoft.EntityFrameworkCore.Specification.Tests.TestUtilities.Xunit;
 using Microsoft.EntityFrameworkCore.SqlServer.FunctionalTests.Utilities;
+using Microsoft.Extensions.Caching.Memory;
 using Xunit;
 using Xunit.Abstractions;
 
